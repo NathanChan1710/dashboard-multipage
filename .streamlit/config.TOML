@@ -1,0 +1,9 @@
+[theme]
+base="dark"
+primaryColor="forestGreen"
+backgroundColor="#0E1117"
+secondaryBackgroundColor="#004fa3"
+textColor="#4bc0ad"
+
+[theme.sidebar]
+primaryColor="darkGoldrod"
