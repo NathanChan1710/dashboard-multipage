@@ -10,7 +10,7 @@ st.markdown(
 )
 st.header(" Données RATP")
 st.write("Aperçu des données d'Ile de France RATP: ")
-st.image("Z:/BUT 3/Dataviz/logo ratp.png", width=500)
+st.image("logo ratp.png", width=500)
 df = pd.read_csv("emplacement-des-gares-idf.csv",sep=";")  
 st.write(df.head(5)) 
 
@@ -77,4 +77,5 @@ fig = px.pie(
 )
 
 # Affichage dans Streamlit
+
 st.plotly_chart(fig, use_container_width=True)
